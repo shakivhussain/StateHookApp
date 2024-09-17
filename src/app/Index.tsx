@@ -3,6 +3,8 @@ import React from 'react'
 import WithoutState from '../components/1.BasicCounter/WithoutState'
 import WithState from '../components/1.BasicCounter/WithState/WithState'
 import UpdateArray from '../components/2.UpdatingArrays/UpdateArray'
+import UpdateObject from '../components/3.UpdateObjects/UpdateObject'
+import SharingState from '../components/4.SharingState/SharingState'
 
 const Index = () => {
     return (
@@ -11,7 +13,10 @@ const Index = () => {
             {/* <WithoutState /> */}
             {/* <WithState/> */}
 
-            <UpdateArray />
+            {/* <UpdateArray /> */}
+
+            {/* <UpdateObject /> */}
+            <SharingState />
         </View>
     )
 }
